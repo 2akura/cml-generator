@@ -6,7 +6,7 @@ CLASS :
 introdution :
 this repository on my Final Year Project aka FYP, this site generating basic cmd's for cisco devices
 its engine is built with rust 🦀, delivering :
-- zero-cost abstraction
+- zero-cost abstraction, safety and performance without runtime overhead
 - blazingly fast compile time, near native performance
 - high performance meets low-level control
 
