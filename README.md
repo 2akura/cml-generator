@@ -3,7 +3,7 @@ NAME : MUHAMMAD AZAHARI SAIFUL BAHRI
 MATRIX NO. : DN12 513
 CLASS :
 
-introdution :
+introduction :
 this repository on my Final Year Project aka FYP, this site generating basic cmd's for cisco devices
 its engine is built with rust 🦀, delivering :
 - zero-cost abstraction, safety and performance without runtime overhead
@@ -28,5 +28,6 @@ USER lands on the site
             ↓ JSON → Rust WASM call
             ↓ result → back to JS
             ↓ update DOM / UI
-
-
+```
+```
+the gimmick of this project is that unlike any site's system, its utilizing jump table architecture for the lookup process -mapping command templates directly to tokenized instructions- this further enhance the speed of lookup process for faster output
