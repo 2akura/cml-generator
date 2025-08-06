@@ -10,7 +10,7 @@ its engine is built with rust 🦀, delivering :
 - blazingly fast compile time, near native performance
 - high performance meets low-level control
 
-Below is the mainframe of the project
+Below is the work breakdown structure of the project
 ```
 
 ```
