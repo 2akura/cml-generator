@@ -34,3 +34,7 @@ USER lands on the site
 WHY IS THIS PROJECT UNIQUE ? :
 
 the gimmick of this project is that it's unlike any site's system, its utilizing jump table function for the lookup process -mapping command templates directly to tokenized instructions- this further enhance the speed of lookup process for faster output
+
+MORE ABOUT THIS PROJECT:
+it's pure frontend, w/o any backend server, regardless of how it may seem 
+this is mainly beacues of budget
