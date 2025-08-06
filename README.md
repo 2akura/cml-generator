@@ -1,4 +1,4 @@
-FLOW :
+```FLOW :
 
 USER lands on the site
  └─ clicks a button
