@@ -1,7 +1,8 @@
 ```
+PROGRAM NAME : DIPLOMA COMPETENCY IN COMPUTER NETWORKING AND SYSTEM ADMINISTRATION  
 NAME : MUHAMMAD AZAHARI SAIFUL BAHRI
 MATRIX NO. : DN12 513
-CLASS :
+CLASS : 
 
 introduction :
 this repository on my Final Year Project aka FYP, this site generating basic cmd's for cisco devices
@@ -26,8 +27,10 @@ USER lands on the site
             ↓ read form data (input.value, etc.)
             ↓ JS function (handles/validates/prepares)
             ↓ JSON → Rust WASM call
-            ↓ result → back to JS
+            ↓ result from Rust → back to JS
             ↓ update DOM / UI
 ```
 ```
-the gimmick of this project is that unlike any site's system, its utilizing jump table architecture for the lookup process -mapping command templates directly to tokenized instructions- this further enhance the speed of lookup process for faster output
+WHY IS THIS PROJECT UNIQUE ? :
+
+the gimmick of this project is that it's unlike any site's system, its utilizing jump table function for the lookup process -mapping command templates directly to tokenized instructions- this further enhance the speed of lookup process for faster output
