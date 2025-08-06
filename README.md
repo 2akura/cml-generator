@@ -7,7 +7,7 @@ its engine is built with rust 🦀, delivering :
 
 ```
 
-
+```
 FLOW :
 
 USER lands on the site
