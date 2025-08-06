@@ -1,10 +1,16 @@
 ```
+NAME : MUHAMMAD AZAHARI SAIFUL BAHRI
+MATRIX NO. : DN12 513
+CLASS :
+
+introdution :
 this repository on my Final Year Project aka FYP, this site generating basic cmd's for cisco devices
 its engine is built with rust 🦀, delivering :
 - zero-cost abstraction
 - blazingly fast compile time, near native performance
 - high performance meets low-level control
 
+Below is the mainframe of the project
 ```
 
 ```
