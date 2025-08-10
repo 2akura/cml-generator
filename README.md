@@ -39,7 +39,7 @@ the gimmick is that it's unlike any site's that uses traditional implementations
 utilizing matrix-table driven finite state machine algorithm -mapping grid templates directly to the data-
 this further reduce engine's complexity and enhance the speed of the lookup process for faster output
 ```
-<img width="2492" height="1104" alt="Screenshot 2025-08-06 at 5 41 34 PM" src="https://github.com/user-attachments/assets/deb68f43-fe50-42f7-9b8a-95068e8ee825" />
+<img width="2348" height="942" alt="Screenshot 2025-08-10 at 9 24 11 PM" src="https://github.com/user-attachments/assets/2f9baec5-07bd-4880-a948-055abb947033" />
 
 ```
 
