@@ -17,20 +17,22 @@ Below is how the site works
 ```
 
 ```
-FLOW :
+flow :
 
 USER lands on the site
  └─ clicks a button
      ├─ href → /switch or /router
      └─ triggers navigation to the respective page
-         └─ on respective page ( switch / router ) :
-           <form> (on submit)
-            ↓ preventDefault()
-            ↓ read form data (input.value, etc.)
-            ↓ JS function (handles/validates/prepares)
-            ↓ JSON → Rust WASM call
-            ↓ result from Rust → back to JS
-            ↓ update DOM / UI
+         └─ on respective page (switch / router):
+            ↓ user interacts with dropdowns / checkboxes / buttons
+            ↓ each input is bound to an event listener
+               - updates in-memory state object (JS)
+            ↓ when user confirms (e.g., clicks "Apply" / "Save")
+               ↓ gather state object (JSON)
+               ↓ send JSON → WASM call
+               ↓ result from Rust → back to JS
+               ↓ update DOM / UI
+
 ```
 ```
 WHY IS THIS PROJECT UNIQUE ? :
@@ -42,8 +44,20 @@ this further reduce engine's complexity and enhance the speed of the lookup proc
 <img width="2348" height="942" alt="Screenshot 2025-08-10 at 9 24 11 PM" src="https://github.com/user-attachments/assets/2f9baec5-07bd-4880-a948-055abb947033" />
 
 ```
+Rust engine flow :
+raw input 
+   → tokenizer with reverse token table
+     - change input into takon based on the reverse token table
+     - log args into side table  
+        → Matrix Table-Driven FSM (parser/syntax validator)
+          - traverse thru the matrix table 
+             → assembler with foward token table
+               - constructs token's value with FSM guided token sequence and foward table
+               - fill in args by extract repective args from the side table 
+```
+```
 
 MORE ABOUT THIS PROJECT:
-it's pure frontend, w/o any backend server, regardless of how it may seem 
+it's pure frontend, w/o any backend server, regardless of how it may seem
 this is mainly beacues of budget
 ```
