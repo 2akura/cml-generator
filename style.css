@@ -97,7 +97,7 @@ body, html {
 .tooltip-container {
   position: fixed;   /* Fix position relative to viewport */
   bottom: 20px;      /* 20px above the bottom */
-  right: 20px;       /* 20px from the right edge */
+  right: 20px;       /* 20px from the right edge, adjust here 25-28px */
   display: inline-block;
   margin: 0;         /* remove margin to avoid extra space */
   z-index: 9999;     /* make sure it’s on top */
