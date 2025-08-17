@@ -47,10 +47,11 @@ this further reduce engine's complexity and enhance the speed of the lookup proc
 Rust engine flow :
 raw input 
    → tokenizer with reverse token table
-     - change input into takon based on the reverse token table
+     - change input into token based on the reverse token table
      - log args into side table  
-        → Matrix Table-Driven FSM (parser/syntax validator)
-          - traverse thru the matrix table 
+        → Matrix Table-Driven FSM 
+          - traverse thru the matrix table
+          - validate token's state
              → assembler with foward token table
                - constructs token's value with FSM guided token sequence and foward table
                - fill in args by extract repective args from the side table 
