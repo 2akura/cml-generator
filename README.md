@@ -50,7 +50,7 @@ raw input
      - change input into token based on the reverse token table
      - log args into side table  
         → Matrix Table-Driven FSM 
-          - traverse thru the matrix table
+          - traverse token sequence on the matrix's grids
           - validate token's state
              → assembler with foward token table
                - constructs token's value with FSM guided token sequence and foward table
