@@ -55,6 +55,8 @@ raw input
                - constructs token's value with FSM guided token sequence and foward table
                - fill in args by extract repective args from the side table 
 ```
+<img width="1904" height="1060" alt="Screenshot 2025-08-17 at 1 51 47 PM" src="https://github.com/user-attachments/assets/6f39f9cf-603f-490d-9bfb-2cb8b5d120a1" />
+
 ```
 
 MORE ABOUT THIS PROJECT:
