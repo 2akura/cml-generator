@@ -1,11 +1,12 @@
 <img width="1946" height="926" alt="Screenshot 2025-08-06 at 4 40 51 PM" src="https://github.com/user-attachments/assets/0a961c04-f35c-4303-973a-0ce053978ad6" />
 
 ```
-PROGRAM NAME : DIPLOMA COMPETENCY IN COMPUTER NETWORKING AND SYSTEM ADMINISTRATION  
+PROGRAM NAME : DIPLOMA COMPETENCY IN COMPUTER NETWORKING AND SYSTEM ADMINISTRATION
+PROGRAM CODE : IT 030-4:2013
 NAME : MUHAMMAD AZAHARI SAIFUL BAHRI
 MATRIX NO. : DN12 513
 CLASS : 
-
+CoCU :
 introduction :
 this repository on my Final Year Project aka FYP, this site generating basic cmd's for cisco devices
 its engine is built with rust 🦀, delivering :
@@ -42,6 +43,8 @@ utilizing matrix-table driven finite state machine algorithm -mapping grid templ
 this further reduce engine's complexity and enhance the speed of the lookup process for faster output
 ```
 <img width="2348" height="942" alt="Screenshot 2025-08-10 at 9 24 11 PM" src="https://github.com/user-attachments/assets/2f9baec5-07bd-4880-a948-055abb947033" />
+<img width="2188" height="1226" alt="Screenshot 2025-09-01 at 9 43 18 PM" src="https://github.com/user-attachments/assets/45bb6156-fc2f-425d-9809-4020a3ae14ed" />
+
 
 ```
 Rust engine flow :
