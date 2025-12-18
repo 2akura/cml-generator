@@ -1,7 +1,7 @@
 @font-face {
   font-family: "TypeLightSans";
-  src: url("typelightsans-kv84p.woff2") format("woff2"),
-       url("typelightsans-kv84p.woff") format("woff");
+  src: url("typelightsans-kv84p-webfont.woff2") format("woff2"),
+       url("typelightsans-kv84p-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
