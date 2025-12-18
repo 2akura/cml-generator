@@ -22,7 +22,7 @@
   align-items: flex-start;
   justify-content: flex-start;
   padding: 30px;
-  gap: 150px; /* space between left column and code */
+  gap: 230px; /* space between left column and code */
   background: 
     radial-gradient(
       circle at bottom,
