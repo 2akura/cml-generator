@@ -57,16 +57,22 @@ and its matrix table driven where each grid contains the pointer of the next sta
 # DATA PARSING ENGINE IN RUST DESIGN
 ```
 Rust engine flow :
-raw input 
-   → tokenizer with reverse token table
-     - change input into token based on the reverse token table
-     - log args into side table  
-        → Matrix Table-Driven FSM 
-          - traverse token sequence on the matrix's grids
-          - validate token's state
-             → assembler with foward token table
-               - constructs token's value with FSM guided token sequence and foward table
-               - fill in args by extract repective args from the side table 
+raw input
+   → tokenizer
+     - convert raw input into token sequence
+     - attach state-relevant metadata to each token
+        → Table-Driven FSM
+          - traverse tokens through the state table
+          - validate transitions based on grammar-defined states
+          - log traversed states for downstream processing
+             → assembler
+               - assemble tokens using FSM-guided grammar rules
+               - produce an ordered, structured collection
+                  → translator
+                    - interpret assembled collection
+                    - map FSM states + state-data as vocabulary
+                    - translate into target representation/output
+ 
 ```
 <img width="1904" height="1060" alt="Screenshot 2025-08-17 at 1 51 47 PM" src="https://github.com/user-attachments/assets/6f39f9cf-603f-490d-9bfb-2cb8b5d120a1" />
 
