@@ -1,4 +1,5 @@
 <img width="1946" height="926" alt="Screenshot 2025-08-06 at 4 40 51 PM" src="https://github.com/user-attachments/assets/0a961c04-f35c-4303-973a-0ce053978ad6" />
+
 # profile
 
 PROGRAM NAME : DIPLOMA COMPETENCY IN COMPUTER NETWORKING AND SYSTEM ADMINISTRATION\
