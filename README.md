@@ -1,5 +1,5 @@
 <img width="1946" height="926" alt="Screenshot 2025-08-06 at 4 40 51 PM" src="https://github.com/user-attachments/assets/0a961c04-f35c-4303-973a-0ce053978ad6" />
-
+# profile
 ```
 PROGRAM NAME : DIPLOMA COMPETENCY IN COMPUTER NETWORKING AND SYSTEM ADMINISTRATION
 PROGRAM CODE : K1217-IT 030-4:2013-2024
@@ -16,7 +16,7 @@ its engine is built with rust 🦀, delivering :
 
 Below is how the site works
 ```
-
+# flow of the design
 ```
 flow :
 
@@ -35,6 +35,7 @@ USER lands on the site
                ↓ update DOM / UI
 
 ```
+# project's gimmick
 ```
 WHY IS THIS PROJECT UNIQUE ? :
 
@@ -42,6 +43,7 @@ the gimmick is that it's unlike any site's that uses traditional implementations
 utilizing matrix-table driven finite state machine algorithm -mapping grid templates directly to the data-
 this further reduce engine's complexity and enhance the speed of the lookup process for faster output
 ```
+# elaboration on FSM algorithm 
 ```
 FSM :
 unlike boring plain chain of state checking FSM, it's included with preload optimization starting indexer, and its matrix table driven where each grid contains the pointer of the next state in order to fully optimizing and compensating the speed of JS - WASM and WASM - JS calls
@@ -49,7 +51,7 @@ unlike boring plain chain of state checking FSM, it's included with preload opti
 <img width="2348" height="942" alt="Screenshot 2025-08-10 at 9 24 11 PM" src="https://github.com/user-attachments/assets/2f9baec5-07bd-4880-a948-055abb947033" />
 <img width="2188" height="1226" alt="Screenshot 2025-09-01 at 9 43 18 PM" src="https://github.com/user-attachments/assets/45bb6156-fc2f-425d-9809-4020a3ae14ed" />
 
-
+# parsing engine in rust design
 ```
 Rust engine flow :
 raw input 
