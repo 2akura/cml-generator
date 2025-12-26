@@ -53,12 +53,12 @@ and its matrix table driven where each grid contains the pointer of the next sta
 
 #
 ```mermaid graph TD
-    A["state A"] --- B["state B"] --- C["state C"]
-    D["state D"] --- E["state E"] --- F["state F"]
-    G["state G"] --- H["state H"] --- I["state I"]
+    A["state A"] --- B["state B"] --- C["state C"];
+    D["state D"] --- E["state E"] --- F["state F"];
+    G["state G"] --- H["state H"] --- I["state I"];
 
-    H --> P["ptr_to_state A"]
-    P --> M["state-to-meaningfulData table"]
+    H --> P["ptr_to_state A"];
+    P --> M["state-to-meaningfulData table"];
 ```
 
 <img width="2348" height="942" alt="Screenshot 2025-08-10 at 9 24 11 PM" src="https://github.com/user-attachments/assets/2f9baec5-07bd-4880-a948-055abb947033" />
