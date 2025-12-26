@@ -10,9 +10,9 @@ CoCU :\
 introduction :\
 this repository on my Final Year Project aka FYP, this site generating basic cmd's for cisco devices\
 its engine is built with rust 🦀, delivering :
-- zero-cost abstraction, safety and performance without runtime overhead\
-- blazingly fast compile time, near native performance\
-- high performance meets low-level control\
+- zero-cost abstraction, safety and performance without runtime overhead
+- blazingly fast compile time, near native performance
+- high performance meets low-level control
 
 Below is how the site works
 
@@ -39,7 +39,7 @@ USER lands on the site
 
 WHY IS THIS PROJECT UNIQUE ? :
 
-the gimmick is that it's unlike any site's that uses traditional implementations for lookup process,\
+the gimmick is that it's unlike any site's that uses traditional implementations for lookup process,
 utilizing matrix-table driven finite state machine algorithm -mapping grid templates directly to the data-
 this further reduce engine's complexity and enhance the speed of the lookup process for faster output
 
