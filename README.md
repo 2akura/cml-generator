@@ -51,28 +51,26 @@ unlike boring plain chain of state checking FSM,
 it's included with preload optimization starting indexer, 
 and its matrix table driven where each grid contains the pointer of the next state in order to fully optimizing and compensating the speed of JS - WASM and WASM - JS calls
 
-#
+# PARSING ENGINE'S ARCHITECTURE OVERVIEW
+
 ```
 |  token A  |  token D |  token G  |
 |  token B  |  token E |  token H  |
 |  token C  |  token F |  token I  |
-```    |
+     |
      v
-```
+
 |  token C | : ptr_to_tokenF  |
 ```
-```
-each cell contains mapping ptr-to-the next-state. in here, FSM guides grammar, and FSM emits state transitions
-```
+
+> each cell contains mapping ptr-to-the next-state. in here, Fsm acts semantic grammar guideline, control flow check
+ 
 ```
 | token C | ... F | ... D |
 ```
-```
-traversal are logged act as lossless semantic trace
-```
 
-
-
+> traversal activities are logged for lossless semantic trace
+ 
 <img width="2348" height="942" alt="Screenshot 2025-08-10 at 9 24 11 PM" src="https://github.com/user-attachments/assets/2f9baec5-07bd-4880-a948-055abb947033" />
 <img width="2188" height="1226" alt="Screenshot 2025-09-01 at 9 43 18 PM" src="https://github.com/user-attachments/assets/45bb6156-fc2f-425d-9809-4020a3ae14ed" />
 
