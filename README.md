@@ -52,20 +52,21 @@ it's included with preload optimization starting indexer,
 and its matrix table driven where each grid contains the pointer of the next state in order to fully optimizing and compensating the speed of JS - WASM and WASM - JS calls
 
 #
-
+```
 |  token A  |  token D |  token G  |
 |  token B  |  token E |  token H  |
 |  token C  |  token F |  token I  |
-     |
+```    |
      v
+```
 |  token C | : ptr_to_tokenF  |
-
+```
 ```
 each cell contains mapping ptr-to-the next-state. in here, FSM guides grammar, and FSM emits state transitions
 ```
-
+```
 | token C | ... F | ... D |
-
+```
 ```
 traversal are logged act as lossless semantic trace
 ```
