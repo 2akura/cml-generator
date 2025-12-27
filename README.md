@@ -63,7 +63,7 @@ and its matrix table driven where each grid contains the pointer of the next sta
 |  token C | : ptr_to_tokenF  |
 ```
 
-> each cell contains mapping ptr-to-the next-state. in here, Fsm acts semantic grammar guideline, control flow check
+> each cell contains mapping ptr-to-the next-state. in here, Fsm acts as deterministic grammar walker, and to control flow check
  
 ```
 | token C | ... F | ... D |
@@ -71,7 +71,6 @@ and its matrix table driven where each grid contains the pointer of the next sta
 
 > traversal activities are logged for lossless semantic trace
  
-<img width="2348" height="942" alt="Screenshot 2025-08-10 at 9 24 11 PM" src="https://github.com/user-attachments/assets/2f9baec5-07bd-4880-a948-055abb947033" />
 <img width="2188" height="1226" alt="Screenshot 2025-09-01 at 9 43 18 PM" src="https://github.com/user-attachments/assets/45bb6156-fc2f-425d-9809-4020a3ae14ed" />
 
 # DATA PARSING ENGINE IN RUST DESIGN
