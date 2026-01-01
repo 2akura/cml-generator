@@ -6,8 +6,8 @@ PROGRAM NAME : DIPLOMA COMPETENCY IN COMPUTER NETWORKING AND SYSTEM ADMINISTRATI
 PROGRAM CODE : K1217-IT 030-4:2013-2024\
 NAME : MUHAMMAD AZAHARI SAIFUL BAHRI\
 MATRIX NO. : DN12 513\
-CLASS :\
-CoCU :\
+CLASS :DCN3B\
+CoCU :MFN 3014\
 introduction :\
 this repository on my Final Year Project aka FYP, this site generating basic cmd's for cisco devices\
 its engine is built with rust 🦀, delivering :
