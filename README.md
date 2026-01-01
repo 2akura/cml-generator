@@ -40,15 +40,15 @@ USER lands on the site
 
 WHY IS THIS PROJECT UNIQUE ? :
 
-the gimmick is that it's unlike any site's that uses traditional implementations for lookup process,
-utilizing matrix-table driven finite state machine algorithm -mapping grid templates directly to the data-
+the gimmick is that it's unlike any site's that uses traditional searching algorithm for lookup process,
+in here, we utilizing matrix-table driven finite state machine algorithm -mapping grid templates directly to the data-
 this further reduce engine's complexity and enhance the speed of the lookup process for faster output
 
-# ELABORATION ON THE PROJECT
+# ELABORATION ON MATRIX TABLE-DRIVEN FSM ALGORITHM
 
 FSM :
-unlike boring plain chain of state checking FSM,
-it's included with preload optimization starting indexer, 
+unlike boring plain chain of state checking FSM,\
+Our FSM are matrix table-driven FSM, and is included with preload optimization starting indexer, 
 and its matrix table driven where each grid contains the pointer of the next state in order to fully optimizing and compensating the speed of JS - WASM and WASM - JS calls
 
 # PARSING ENGINE'S ARCHITECTURE OVERVIEW
