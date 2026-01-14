@@ -101,7 +101,8 @@ MORE ABOUT THIS PROJECT:
 it's pure frontend, w/o any backend server, regardless of how it may seem
 this is mainly beacues of budget
 
+# LINK
 
-```mermaid
-  info
-```
+MORE ABOUT THE SYSTEM:
+
+[CML GENERATOR-ROUTER](https://github.com/2akura/cml-generator-router).
