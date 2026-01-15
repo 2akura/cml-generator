@@ -54,13 +54,12 @@ and its matrix table driven where each grid contains the pointer of the next sta
 # PARSING ENGINE'S ARCHITECTURE OVERVIEW
 
 ```
-|  token A  |  token D |  token G  |
-|  token B  |  token E |  token H  |
-|  token C  |  token F |  token I  |
-     |
-     v
-
-|  token C | : ptr_to_tokenF  |
+|  token A  | 
+|  token B  | 
+|  token C  |  
+|  token D  |--- > |  token C | : ptr_to_tokenF  |
+|  token E  |
+|  token F  |
 ```
 
 > each cell contains mapping ptr-to-the next-state. in here, Fsm acts as deterministic grammar walker, and to control flow check
